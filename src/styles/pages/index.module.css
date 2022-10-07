@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+  background: var(--color-background);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  user-select: none;
+
+  border: 2px solid var(--color-primary-accent);
+
+  width: 200px;
+  height: 80px;
+  background-color: var(--color-button);
+  color: var(--color-button-text);
+}
+.button:hover {
+  cursor: pointer;
+}
+
+.buttonTray {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
